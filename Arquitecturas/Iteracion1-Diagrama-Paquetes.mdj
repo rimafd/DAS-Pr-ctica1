@@ -596,7 +596,7 @@
 							"left": 336,
 							"top": 648,
 							"width": 376,
-							"height": 344
+							"height": 336
 						},
 						{
 							"_type": "UMLTextView",
@@ -715,7 +715,7 @@
 							"parentStyle": false,
 							"left": 1872,
 							"top": 440,
-							"width": 232,
+							"width": 304,
 							"height": 88
 						},
 						{
@@ -726,11 +726,11 @@
 							},
 							"font": "Arial;28;0",
 							"parentStyle": false,
-							"left": 1904,
+							"left": 1880,
 							"top": 448,
-							"width": 168,
+							"width": 296,
 							"height": 68,
-							"text": "SISTEMA EXTERNO",
+							"text": "<<sistema externo>>     STRIPE",
 							"horzAlign": 2
 						},
 						{
@@ -1843,6 +1843,61 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAGh1bGzWvLwXRQ="
 							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGh2cD3q/MN4gE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 688,
+							"top": 768,
+							"width": 136,
+							"height": 48,
+							"text": "HTTP/REST"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGh2cEiKPMSo3I=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 712,
+							"top": 760,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGh2cE0JvMWL+I=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 656,
+							"top": 840,
+							"width": 136,
+							"height": 48,
+							"text": "HTTP/REST"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGh2cHbhPMaN1Q=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1696,
+							"top": 568,
+							"width": 120,
+							"height": 32,
+							"text": "HTTPS/API"
 						}
 					]
 				},
