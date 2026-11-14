@@ -27,7 +27,7 @@ Requisitos relacionados: RD2, RF10.
 
 ## Resultado de la decisión
 
-Opción elegida: «Adapter», porque RD2 fija Stripe pero RF10 solo necesita un resultado aceptado o rechazado, que la interfaz `PasarelaPago` expone sin que el resto del sistema conozca los tipos de Stripe.
+Opción elegida: «Adapter», porque RD2 fija Stripe pero RF10 solo necesita un resultado aceptado o rechazado, que la interfaz `PasarelaPago` expone sin que el resto del sistema conozca los tipos de Stripe. El módulo de pagos usa `PasarelaPago` para ejecutar cada cobro (RF10), y cada `Pago` pertenece a una `Suscripcion`.
 
 ### Consecuencias
 
